@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/831079/pexels-photo-831079.jpeg?cs=srgb&dl=pexels-rudy-kirchner-278171-831079.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding :20px;
+
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: transparent;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.container header {
+    font-size: 27px;
+    font-weight: 520;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ecd1d1;
+    
+}
+
+.container .form {
+    margin-top: 25px;
+}
+
+.container .input-box {
+      width: 100%;
+      margin-top: 20px;
+}
+
+.input-box label {
+    color: rgb(240, 211, 240);
+}
+
+.form .input-box input {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(26, 25, 25);
+    color: rgb(229, 229, 229);
+    margin-top: 9px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 6px;
+}
+
+.column {
+    display: flex;
+    column-gap: 25px;
+}
+
+.column2 {
+    display: flex;
+    column-gap: 25px;
+}
+
+.column3 {
+
+    display: flex;
+    column-gap: 43px;
+}
+
+.column4 {
+    display: flex;
+    column-gap: 100px;
+}
+
+.birth-date input {
+    width: 100%;
+}
+
+@media (max-width : 500px) {
+    .form .column {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width : 500px) {
+    .form .column2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width : 500px) {
+    .form .column3 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width : 500px) {
+    .form .column4 {
+        flex-wrap: wrap;
+    }
+}
+
+.gender-box {
+    margin-top: 20px;
+}
+
+.gender-option .gender {
+    margin-top: 9px;
+}
+
+.gender-box .gender-option {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.gender-option label {
+    color:  rgb(186, 183, 186);
+}
+
+ .gender-option,  .gender {
+      display: flex;
+      align-items: center;
+      column-gap: 50px;
+      flex-wrap: wrap;
+}
+
+.gender {
+    column-gap: 5px;
+}
+
+.gender input {
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.gender label {
+    cursor: pointer;
+    color: #d8d7d7;
+    margin-top: 12px;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: #ddd;
+    border-radius: 10px;
+    font-family: verdana;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(155, 154, 154);
+}
+
+.select-corse {
+    margin-top: 9px;
+}
+
+.select-corse select {
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgb(26, 25, 25);
+    color:  rgb(229, 229, 229);
+    padding: 0 6px;
+}
+
+.year-selection {
+    margin-top: 20px;
+}
+
+.select-year {
+    margin-top: 9px;
+}
+
+.select-year select {
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgb(26, 25, 25);
+    color: rgb(229, 229, 229);
+    padding: 0 6px;
+}
